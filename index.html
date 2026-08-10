@@ -109,14 +109,14 @@
     </section>
 
     <section class="cards" aria-label="遠雄青溪行情摘要">
-      <div class="card focus"><div class="label">遠雄青溪近一年</div><div class="value">1</div><div class="unit">筆官方批次交易</div></div>
+      <div class="card focus"><div class="label">遠雄青溪近一年</div><div class="value">2</div><div class="unit">筆官方批次交易</div></div>
       <div class="card focus"><div class="label">近一年可拆樣本</div><div class="value">0</div><div class="unit">筆；中位單價 - 萬/坪</div></div>
-      <div class="card focus"><div class="label">官方歷史明細</div><div class="value">119</div><div class="unit">筆社區交易</div></div>
+      <div class="card focus"><div class="label">官方歷史明細</div><div class="value">120</div><div class="unit">筆社區交易</div></div>
       <div class="card focus"><div class="label">官方歷史可拆樣本</div><div class="value">112</div><div class="unit">筆；中位 29.8 萬/坪</div></div>
     </section>
 
     <section class="cards" aria-label="小檜溪周邊行情摘要">
-      <div class="card"><div class="label">小檜溪周邊近一年</div><div class="value">213</div><div class="unit">筆住宅交易，含社區明細</div></div>
+      <div class="card"><div class="label">小檜溪周邊近一年</div><div class="value">214</div><div class="unit">筆住宅交易，含社區明細</div></div>
       <div class="card"><div class="label">周邊中位單價</div><div class="value">54.6</div><div class="unit">萬 / 坪，不含遠雄青溪</div></div>
       <div class="card"><div class="label">周邊平均單價</div><div class="value">54.1</div><div class="unit">萬 / 坪，不含遠雄青溪</div></div>
       <div class="card"><div class="label">周邊主行情樣本</div><div class="value">117</div><div class="unit">筆；另有 52 筆高屋齡參考</div></div>
@@ -168,7 +168,7 @@
         <strong>資料來源：</strong>
         <a href="https://data.gov.tw/dataset/77051">政府資料開放平台：本期發布之不動產實價登錄批次資料</a>、
         <a href="https://plvr.land.moi.gov.tw/">內政部不動產成交案件實際資訊資料供應系統</a>，並比對
-        <a href="https://lvr.land.moi.gov.tw/jsp/list.jsp">內政部實價登錄查詢網</a>近一年桃園區前台清單；本次去重後官方查詢網補充 0 筆。實際揭露仍以官方查詢服務網與最新公告為準。
+        <a href="https://lvr.land.moi.gov.tw/jsp/list.jsp">內政部實價登錄查詢網</a>近一年桃園區前台清單；本次去重後官方查詢網補充 2 筆。實際揭露仍以官方查詢服務網與最新公告為準。
       </div>
     </section>
   </main>
@@ -186,7 +186,7 @@
 
     async function loadData() {
       try {
-        const response = await fetch("xiaohuixi-records.json?v=7", { cache: "no-store" });
+        const response = await fetch("xiaohuixi-records.json?v=8", { cache: "no-store" });
         DATA = await response.json();
       } catch (error) {
         rowsEl.innerHTML = `<tr><td colspan="10">資料載入失敗，請重新整理頁面。</td></tr>`;
@@ -210,7 +210,7 @@
           <td><span class="tag">${r.community}</span></td>
           <td><span class="tag">${r.source}</span></td>
           <td>${r.address}</td>
-          <td><strong>${r.unitPriceWanPerPing || "-"}</strong> ${r.unitPriceWanPerPing ? "萬/坪" : ""}<br><small>${r.unitPriceWanPerPing ? "已拆車位" : "車位價格未揭露"}</small></td>
+          <td><strong>${r.unitPriceWanPerPing || r.officialUnitWanPerPing || "-"}</strong> ${(r.unitPriceWanPerPing || r.officialUnitWanPerPing) ? "萬/坪" : ""}<br><small>${r.unitPriceWanPerPing ? "已拆車位" : (r.officialUnitWanPerPing ? "官方單價，未拆車位" : "車位價格未揭露")}</small></td>
           <td>${r.housePriceWan ? fmtWan(r.housePriceWan) + " 萬" : "未揭露"}<br><small>總價 ${fmtWan(r.totalPriceWan)} 萬</small></td>
           <td>房地 ${r.housePing} 坪<br><small>建物登記 ${r.totalPing} 坪</small></td>
           <td><span class="parking">${r.parkingPriceWan ? fmtWan(r.parkingPriceWan) + " 萬" : "未揭露"}</span><br><small>${r.parkingType || "無揭露"}｜${r.parkingPing} 坪</small></td>
