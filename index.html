@@ -114,10 +114,10 @@
     </section>
 
     <section class="cards" aria-label="小檜溪周邊行情摘要">
-      <div class="card"><div class="label">小檜溪周邊近一年</div><div class="value">214</div><div class="unit">筆住宅交易，含社區明細</div></div>
+      <div class="card"><div class="label">小檜溪周邊預售</div><div class="value">50</div><div class="unit">筆近一年官方明細</div></div>
+      <div class="card"><div class="label">周邊新成屋</div><div class="value">104</div><div class="unit">筆 5 年內成屋</div></div>
       <div class="card"><div class="label">周邊中位單價</div><div class="value">54.6</div><div class="unit">萬 / 坪，不含遠雄青溪</div></div>
       <div class="card"><div class="label">周邊平均單價</div><div class="value">54.1</div><div class="unit">萬 / 坪，不含遠雄青溪</div></div>
-      <div class="card"><div class="label">周邊主行情樣本</div><div class="value">117</div><div class="unit">筆；另有 52 筆高屋齡參考</div></div>
     </section>
 
     <section class="panel">
@@ -126,7 +126,8 @@
       <div class="toolbar">
         <button class="active" data-kind="yuanqingxi">遠雄青溪近一年</button>
         <button data-kind="yuanqingxiHistory">遠雄青溪歷史成交</button>
-        <button data-kind="area">小檜溪周邊</button>
+        <button data-kind="areaPresale">小檜溪預售</button>
+        <button data-kind="areaNewHouse">小檜溪新成屋（5年內）</button>
         <button data-kind="all">全部明細</button>
         <input id="search" placeholder="搜尋路名，例如：青溪一路、日光路、民光東路">
       </div>
@@ -174,7 +175,7 @@
 
     async function loadData() {
       try {
-        const response = await fetch("xiaohuixi-records.json?v=11", { cache: "no-store" });
+        const response = await fetch("xiaohuixi-records.json?v=12", { cache: "no-store" });
         DATA = await response.json();
       } catch (error) {
         rowsEl.innerHTML = `<tr><td colspan="9">資料載入失敗，請重新整理頁面。</td></tr>`;
@@ -213,7 +214,7 @@
       const q = search.value.trim();
       const sourceRecords = activeKind === "yuanqingxiHistory" ? DATA.communityHistory : DATA.records;
       const filtered = sourceRecords.filter(r => {
-        const kindOk = activeKind === "all" || activeKind === "yuanqingxiHistory" || r.kind === activeKind || (activeKind === "reference" && r.referenceGroup) || (activeKind === "older" && !r.referenceGroup) || (activeKind === "yuanqingxi" && r.community === "遠雄青溪") || (activeKind === "area" && r.community !== "遠雄青溪" && r.referenceGroup);
+        const kindOk = activeKind === "all" || activeKind === "yuanqingxiHistory" || (activeKind === "yuanqingxi" && r.community === "遠雄青溪") || (activeKind === "areaPresale" && r.community !== "遠雄青溪" && r.kind === "預售") || (activeKind === "areaNewHouse" && r.community !== "遠雄青溪" && r.kind === "成屋" && r.buildingAge !== null && r.buildingAge <= 5);
         const qOk = !q || r.address.includes(q);
         return kindOk && qOk;
       });
