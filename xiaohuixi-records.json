@@ -3,30 +3,33 @@
     "generatedDate": "2026-08-10",
     "periodLabel": "2025/08/10 - 2026/08/10",
     "recordCount": 214,
-    "validCount": 169,
+    "validCount": 170,
     "referenceCount": 117,
-    "allReferenceCount": 117,
+    "allReferenceCount": 118,
     "olderCount": 52,
     "yuanqingxiCount": 2,
     "moiQuerySupplementCount": 2,
-    "yuanqingxiReferenceCount": 0,
-    "yuanqingxiAvgUnit": 0,
-    "yuanqingxiMedianUnit": 0,
-    "yuanqingxiMinUnit": 0,
-    "yuanqingxiMaxUnit": 0,
+    "yuanqingxiReferenceCount": 1,
+    "yuanqingxiAvgUnit": 45.9,
+    "yuanqingxiMedianUnit": 45.9,
+    "yuanqingxiMinUnit": 45.9,
+    "yuanqingxiMaxUnit": 45.9,
     "yuanqingxiHistoryCount": 120,
-    "yuanqingxiHistorySplitCount": 112,
-    "yuanqingxiHistoryAvgUnit": 29.9,
-    "yuanqingxiHistoryMedianUnit": 29.8,
+    "yuanqingxiHistorySplitCount": 119,
+    "yuanqingxiHistoryAvgUnit": 30.6,
+    "yuanqingxiHistoryMedianUnit": 29.9,
     "withParkingCount": 182,
     "latestDate": "2026/06/15",
     "avgUnit": 54.1,
     "medianUnit": 54.6,
     "minUnit": 40.7,
     "maxUnit": 66.7,
-    "avgParkingPriceWan": 213,
+    "avgParkingPriceWan": 214,
     "avgParkingPing": 9.67,
-    "parkingPriceCount": 118
+    "parkingPriceCount": 119,
+    "yuanqingxiAvgParkingPricePerSpace": 200,
+    "yuanqingxiParkingPriceSampleCount": 1,
+    "yuanqingxiSingleParkingPing": 10.61
   },
   "records": [
     {
@@ -57,7 +60,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPWNMLTLOHLGFAH96CB--預售"
+      "id": "RPWNMLTLOHLGFAH96CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -87,7 +92,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPRNMLLJPHLGFAH18CB--預售"
+      "id": "RPRNMLLJPHLGFAH18CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -117,7 +124,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPXNMLTLOHLGFAH07CB--預售"
+      "id": "RPXNMLTLOHLGFAH07CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -147,7 +156,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPQPMLTLOHLGFAH56DA-0076-成屋"
+      "id": "RPQPMLTLOHLGFAH56DA-0076-成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -177,7 +188,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "內附傢俱設備",
-      "id": "RPPNMLOLOHLGFAH38DA--成屋"
+      "id": "RPPNMLOLOHLGFAH38DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -207,7 +220,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPPNMLNKPHLGFAH38EA--成屋"
+      "id": "RPPNMLNKPHLGFAH38EA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -237,7 +252,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "內政部實價登錄查詢網前台查詢，清單未揭露車位坪數及車位價格，故不拆算車位。",
-      "id": "MOI-QUERY-YUANQINGXI-20260511-22-12F"
+      "id": "MOI-QUERY-YUANQINGXI-20260511-22-12F",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -267,7 +284,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPOOMLLJPHLGFAH97DA-0157-成屋"
+      "id": "RPOOMLLJPHLGFAH97DA-0157-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -297,7 +316,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPXNMLKLNHLGFAH68DA--成屋"
+      "id": "RPXNMLKLNHLGFAH68DA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -327,7 +348,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPQMLLLNHLGFAH28DA-00168-成屋"
+      "id": "RPPQMLLLNHLGFAH28DA-00168-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -357,7 +380,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPNMLSKNHLGFAH58CB--預售"
+      "id": "RPPNMLSKNHLGFAH58CB--預售",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "預售",
@@ -387,7 +412,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPVNMLSKNHLGFAH56CB--預售"
+      "id": "RPVNMLSKNHLGFAH56CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -417,7 +444,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPNMLSJNHLGFAH48DA--成屋"
+      "id": "RPPNMLSJNHLGFAH48DA--成屋",
+      "parkingCount": 2,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -447,7 +476,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "陽台外推；其他增建；",
-      "id": "RPOVMLOJOHLGFAH88DA--成屋"
+      "id": "RPOVMLOJOHLGFAH88DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -477,7 +508,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "內附傢俱設備",
-      "id": "RPVNMLQJNHLGFAH88DA--成屋"
+      "id": "RPVNMLQJNHLGFAH88DA--成屋",
+      "parkingCount": 2,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -507,7 +540,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "陽台外推；其他增建；",
-      "id": "RPPNMLRJPHLGFAH68EA-0251-成屋"
+      "id": "RPPNMLRJPHLGFAH68EA-0251-成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "預售",
@@ -537,7 +572,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPVNMLRJNHLGFAH98CB--預售"
+      "id": "RPVNMLRJNHLGFAH98CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -567,7 +604,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPQNMLRJNHLGFAH48CB--預售"
+      "id": "RPQNMLRJNHLGFAH48CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -597,7 +636,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPNMLNKPHLGFAH28DA-0280-成屋"
+      "id": "RPPNMLNKPHLGFAH28DA-0280-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -627,7 +668,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "本戶為露台戶",
-      "id": "RPUNMLRJNHLGFAH88CB--預售"
+      "id": "RPUNMLRJNHLGFAH88CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -657,7 +700,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "陽台外推；",
-      "id": "RPOOMLQJNHLGFAH28DA--成屋"
+      "id": "RPOOMLQJNHLGFAH28DA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -687,7 +732,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "陽台加窗",
-      "id": "RPXOMLQJNHLGFAH56DA-00604-成屋"
+      "id": "RPXOMLQJNHLGFAH56DA-00604-成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -717,7 +764,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPTOMLSJNHLGFAH98DA--成屋"
+      "id": "RPTOMLSJNHLGFAH98DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -747,7 +796,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPOMLRJNHLGFAH48DA--成屋"
+      "id": "RPPOMLRJNHLGFAH48DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -777,7 +828,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPNMLLLMHLGFAH87CB--預售"
+      "id": "RPPNMLLLMHLGFAH87CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -807,7 +860,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "親友、員工、共有人或其他特殊關係間之交易；",
-      "id": "RPPOMLOKMHLGFAH18DA--成屋"
+      "id": "RPPOMLOKMHLGFAH18DA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -837,7 +892,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPQOMLRJNHLGFAH58DA--成屋"
+      "id": "RPQOMLRJNHLGFAH58DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -867,7 +924,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPRNMLOKMHLGFAH28CB--預售"
+      "id": "RPRNMLOKMHLGFAH28CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -897,7 +956,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "其他增建；",
-      "id": "RPTNMLRJNHLGFAH88EA--成屋"
+      "id": "RPTNMLRJNHLGFAH88EA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "預售",
@@ -927,7 +988,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPNMLOKMHLGFAH08CB--預售"
+      "id": "RPPNMLOKMHLGFAH08CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -957,7 +1020,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPSNMLOLMHLGFAH48DA--成屋"
+      "id": "RPSNMLOLMHLGFAH48DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -987,7 +1052,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPOPMLOJNHLGFAH18DA-00502-成屋"
+      "id": "RPOPMLOJNHLGFAH18DA-00502-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -1017,7 +1084,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPQNMLKKMHLGFAH77CB--預售"
+      "id": "RPQNMLKKMHLGFAH77CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -1047,7 +1116,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPWOMLNLMHLGFAH88DA-01552-成屋"
+      "id": "RPWOMLNLMHLGFAH88DA-01552-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -1077,7 +1148,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPXRMLSLNHLGFAH27DA-01533-成屋"
+      "id": "RPXRMLSLNHLGFAH27DA-01533-成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "預售",
@@ -1107,7 +1180,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPRNMLLMLHLGFAH08CB--預售"
+      "id": "RPRNMLLMLHLGFAH08CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -1137,7 +1212,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPOSMLTLMHLGFAH09DA--成屋"
+      "id": "RPOSMLTLMHLGFAH09DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -1167,7 +1244,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "交易總價 : 新台幣1921萬元正土地1027萬元+房屋684萬元+車位210萬元",
-      "id": "RPVRMLMKNHLGFAH98DA--成屋"
+      "id": "RPVRMLMKNHLGFAH98DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -1197,7 +1276,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPSSMLTLMHLGFAH86DA--成屋"
+      "id": "RPSSMLTLMHLGFAH86DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -1227,7 +1308,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "夾層；其他增建；",
-      "id": "RPQNMLKKMHLGFAH77DA-00990-成屋"
+      "id": "RPQNMLKKMHLGFAH77DA-00990-成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -1257,7 +1340,9 @@
       "ageLabel": "6-10年",
       "referenceGroup": true,
       "note": "",
-      "id": "RPSPMLPKMHLGFAH68DA-01039-成屋"
+      "id": "RPSPMLPKMHLGFAH68DA-01039-成屋",
+      "parkingCount": 3,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -1287,7 +1372,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "交易總價 : 新台幣2656萬元正  土地1456萬元+房屋970萬元+車位230萬元",
-      "id": "RPTRMLMKNHLGFAH78DA--成屋"
+      "id": "RPTRMLMKNHLGFAH78DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -1317,7 +1404,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "交易總價 : 新台幣1886萬元正土地1000萬元+房屋666萬元+車位220萬元",
-      "id": "RPURMLMKNHLGFAH88DA--成屋"
+      "id": "RPURMLMKNHLGFAH88DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -1347,7 +1436,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPQNMLQLLHLGFAH38CB--預售"
+      "id": "RPQNMLQLLHLGFAH38CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -1377,7 +1468,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPRNMLOLLHLGFAH28CB--預售"
+      "id": "RPRNMLOLLHLGFAH28CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -1407,7 +1500,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "交易總價 : 新台幣2665萬元正土地1461萬元+房屋974萬元+車位230萬元",
-      "id": "RPRPMLNKNHLGFAH48DA--成屋"
+      "id": "RPRPMLNKNHLGFAH48DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -1437,7 +1532,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPNMLOLLHLGFAH08CB--預售"
+      "id": "RPPNMLOLLHLGFAH08CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -1467,7 +1564,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "夾層；",
-      "id": "RPWOMLTJMHLGFAH66DA-00956-成屋"
+      "id": "RPWOMLTJMHLGFAH66DA-00956-成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -1497,7 +1596,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPXPMLLLNHLGFAH98DA-01476-成屋"
+      "id": "RPXPMLLLNHLGFAH98DA-01476-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -1527,7 +1628,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPRNMLQKMHLGFAH58EA-01877-成屋"
+      "id": "RPRNMLQKMHLGFAH58EA-01877-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -1557,7 +1660,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPSNMLOJNHLGFAH38DA--成屋"
+      "id": "RPSNMLOJNHLGFAH38DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -1587,7 +1692,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPQNMLOLLHLGFAH18CB--預售"
+      "id": "RPQNMLOLLHLGFAH18CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -1617,7 +1724,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPXOMLLMLHLGFAH78DA-01851-成屋"
+      "id": "RPXOMLLMLHLGFAH78DA-01851-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -1647,7 +1756,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPQNMLNKMHLGFAH18EA--成屋"
+      "id": "RPQNMLNKMHLGFAH18EA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "預售",
@@ -1677,7 +1788,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPNMLKKLHLGFAH57CB--預售"
+      "id": "RPPNMLKKLHLGFAH57CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -1707,7 +1820,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPUNMLOJLHLGFAH38CB--預售"
+      "id": "RPUNMLOJLHLGFAH38CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -1737,7 +1852,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPVNMLOJLHLGFAH48CB--預售"
+      "id": "RPVNMLOJLHLGFAH48CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -1767,7 +1884,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "其他增建；",
-      "id": "RPSNMLMJLHLGFAH97DA-0046-成屋"
+      "id": "RPSNMLMJLHLGFAH97DA-0046-成屋",
+      "parkingCount": 2,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -1797,7 +1916,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPQNMLRJMHLGFAH38DA-01790-成屋"
+      "id": "RPQNMLRJMHLGFAH38DA-01790-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -1827,7 +1948,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "含傢俱設備",
-      "id": "RPSNMLNKLHLGFAH18DA--成屋"
+      "id": "RPSNMLNKLHLGFAH18DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -1857,7 +1980,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPRSMLTLMHLGFAH76DA--成屋"
+      "id": "RPRSMLTLMHLGFAH76DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -1887,7 +2012,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPUPMLNJLHLGFAH48DA--成屋"
+      "id": "RPUPMLNJLHLGFAH48DA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "預售",
@@ -1917,7 +2044,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPSNMLOJLHLGFAH18CB--預售"
+      "id": "RPSNMLOJLHLGFAH18CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -1947,7 +2076,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPVPMLTJMHLGFAH66DA--成屋"
+      "id": "RPVPMLTJMHLGFAH66DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -1977,7 +2108,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPNMLNLKHLGFAH87CB--預售"
+      "id": "RPPNMLNLKHLGFAH87CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -2007,7 +2140,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPXOMLNLLHLGFAH88DA--成屋"
+      "id": "RPXOMLNLLHLGFAH88DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -2037,7 +2172,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPNMLMJLHLGFAH67CB--預售"
+      "id": "RPPNMLMJLHLGFAH67CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -2067,7 +2204,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPQNMLMJLHLGFAH77CB--預售"
+      "id": "RPQNMLMJLHLGFAH77CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -2097,7 +2236,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPVPMLRJMHLGFAH09DA-01881-成屋"
+      "id": "RPVPMLRJMHLGFAH09DA-01881-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -2127,7 +2268,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPXNMLOLLHLGFAH88DA-02093-成屋"
+      "id": "RPXNMLOLLHLGFAH88DA-02093-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -2157,7 +2300,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPOPMLNLLHLGFAH08DA--成屋"
+      "id": "RPOPMLNLLHLGFAH08DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -2187,7 +2332,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPPNMLKMLHLGFAH87EA--成屋"
+      "id": "RPPNMLKMLHLGFAH87EA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "預售",
@@ -2217,7 +2364,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPNMLMKKHLGFAH67CB--預售"
+      "id": "RPPNMLMKKHLGFAH67CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -2247,7 +2396,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "前陽台外推其他增建；",
-      "id": "RPQNMLOLLHLGFAH18DA--成屋"
+      "id": "RPQNMLOLLHLGFAH18DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -2277,7 +2428,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "夾層增建",
-      "id": "RPPSMLTKLHLGFAH98DA--成屋"
+      "id": "RPPSMLTKLHLGFAH98DA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "預售",
@@ -2307,7 +2460,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPNMLKKKHLGFAH47CB--預售"
+      "id": "RPPNMLKKKHLGFAH47CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -2337,7 +2492,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPPNMLTJLHLGFAH38DA--成屋"
+      "id": "RPPNMLTJLHLGFAH38DA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -2367,7 +2524,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPSNMLNKKHLGFAH08DA--成屋"
+      "id": "RPSNMLNKKHLGFAH08DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -2397,7 +2556,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPTNMLMJMHLGFAH18DA-02536-成屋"
+      "id": "RPTNMLMJMHLGFAH18DA-02536-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -2427,7 +2588,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPROMLSKLHLGFAH68DA-02282-成屋"
+      "id": "RPROMLSKLHLGFAH68DA-02282-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -2457,7 +2620,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPOOMLOLKHLGFAH97DA-0456-成屋"
+      "id": "RPOOMLOLKHLGFAH97DA-0456-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -2487,7 +2652,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPROMLNKLHLGFAH18DA-02241-成屋"
+      "id": "RPROMLNKLHLGFAH18DA-02241-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -2517,7 +2684,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPOMLNLJHLGFAH87DA--成屋"
+      "id": "RPPOMLNLJHLGFAH87DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -2547,7 +2716,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "親友、員工、共有人或其他特殊關係間之交易；",
-      "id": "RPTOMLTJJHLGFAH68DA-0055-成屋"
+      "id": "RPTOMLTJJHLGFAH68DA-0055-成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -2577,7 +2748,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPQOMLNLJHLGFAH97DA--成屋"
+      "id": "RPQOMLNLJHLGFAH97DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -2607,7 +2780,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPWNMLNLJHLGFAH48DA--成屋"
+      "id": "RPWNMLNLJHLGFAH48DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -2637,7 +2812,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPOOMLNLJHLGFAH77DA--成屋"
+      "id": "RPOOMLNLJHLGFAH77DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -2667,7 +2844,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPOMLTKJHLGFAH38DA--成屋"
+      "id": "RPPOMLTKJHLGFAH38DA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -2697,7 +2876,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "交易總價:新台幣1874萬元正土地986萬元+房屋658萬元+車位230萬元",
-      "id": "RPUPMLTJMHLGFAH56DA--成屋"
+      "id": "RPUPMLTJMHLGFAH56DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -2727,7 +2908,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "其他增建；毛胚屋；",
-      "id": "RPUOMLNJKHLGFAH28DA-02138-成屋"
+      "id": "RPUOMLNJKHLGFAH28DA-02138-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -2757,7 +2940,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPSOMLRJJHLGFAH38DA-0048-成屋"
+      "id": "RPSOMLRJJHLGFAH38DA-0048-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -2787,7 +2972,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "親友、員工、共有人或其他特殊關係間之交易；",
-      "id": "RPXNMLKLJHLGFAH28DA--成屋"
+      "id": "RPXNMLKLJHLGFAH28DA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -2817,7 +3004,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPUNMLQJKHLGFAH48DA--成屋"
+      "id": "RPUNMLQJKHLGFAH48DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -2847,7 +3036,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPTNMLQLJHLGFAH48CB--預售"
+      "id": "RPTNMLQLJHLGFAH48CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -2877,7 +3068,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPVNMLOJLHLGFAH48DA--成屋"
+      "id": "RPVNMLOJLHLGFAH48DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -2907,7 +3100,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPTOMLNLLHLGFAH48DA--成屋"
+      "id": "RPTOMLNLLHLGFAH48DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -2937,7 +3132,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPSNMLLMKIKGFAH08CB--預售"
+      "id": "RPSNMLLMKIKGFAH08CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -2967,7 +3164,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "前院平面停車",
-      "id": "RPVNMLSJJHLGFAH68DA--成屋"
+      "id": "RPVNMLSJJHLGFAH68DA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -2997,7 +3196,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "親友、員工、共有人或其他特殊關係間之交易；",
-      "id": "RPPNMLPJLHLGFAH08EA--成屋"
+      "id": "RPPNMLPJLHLGFAH08EA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "預售",
@@ -3027,7 +3228,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPQNMLPKJHLGFAH97CB--預售"
+      "id": "RPQNMLPKJHLGFAH97CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -3057,7 +3260,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPROMLNLJHLGFAH08DA--成屋"
+      "id": "RPROMLNLJHLGFAH08DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -3087,7 +3292,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "親友、員工、共有人或其他特殊關係間之交易；",
-      "id": "RPPNMLPJJHLGFAH87EA--成屋"
+      "id": "RPPNMLPJJHLGFAH87EA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -3117,7 +3324,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPNMLKMMHLGFAH97EA-02953-成屋"
+      "id": "RPPNMLKMMHLGFAH97EA-02953-成屋",
+      "parkingCount": 2,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -3147,7 +3356,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "夾層增建、鐵鋁窗增建",
-      "id": "RPTNMLPKJHLGFAH28DA-1316-成屋"
+      "id": "RPTNMLPKJHLGFAH28DA-1316-成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -3177,7 +3388,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPOOMLRLJHLGFAH18DA-02697-成屋"
+      "id": "RPOOMLRLJHLGFAH18DA-02697-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -3207,7 +3420,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "交易總價: 新台幣1864萬元正土地992萬元+房屋662萬元+車位210萬元",
-      "id": "RPUOMLTJLHLGFAH98DA--成屋"
+      "id": "RPUOMLTJLHLGFAH98DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -3237,7 +3452,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPOMLSJNHLGFAH58DA-02978-成屋"
+      "id": "RPPOMLSJNHLGFAH58DA-02978-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -3267,7 +3484,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPWNMLMLKIKGFAH48DA--成屋"
+      "id": "RPWNMLMLKIKGFAH48DA--成屋",
+      "parkingCount": 3,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -3297,7 +3516,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPQOMLMKLHLGFAH97DA-02771-成屋"
+      "id": "RPQOMLMKLHLGFAH97DA-02771-成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -3314,20 +3535,23 @@
       "halls": "2",
       "baths": "2",
       "totalPriceWan": 2450,
-      "parkingPriceWan": 0,
-      "housePriceWan": 0,
+      "parkingPriceWan": 400,
+      "housePriceWan": 2050,
       "totalPing": 65.92,
       "parkingPing": 21.21,
       "housePing": 44.71,
-      "unitPriceWanPerPing": 0,
+      "unitPriceWanPerPing": 45.9,
       "officialUnitWanPerPing": 37.16,
-      "splitAvailable": false,
+      "splitAvailable": true,
       "parkingType": "坡道平面",
       "buildingAge": 3,
       "ageLabel": "5年內",
       "referenceGroup": true,
-      "note": "內政部實價登錄查詢網前台查詢；此筆與批次檔相同，去重後不重複列出。",
-      "id": "RPTOMLKMJHLGFAH08DA-02750-成屋"
+      "note": "內政部實價登錄查詢網前台查詢；此筆與批次檔相同，去重後不重複列出。 車位價格未揭露，依遠雄青溪近三年已揭露車位價格均價估算。",
+      "id": "RPTOMLKMJHLGFAH08DA-02750-成屋",
+      "parkingCount": 2,
+      "parkingCountEstimated": true,
+      "parkingPriceEstimated": true
     },
     {
       "kind": "成屋",
@@ -3357,7 +3581,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPVNMLLLJHLGFAH18DA-0993-成屋"
+      "id": "RPVNMLLLJHLGFAH18DA-0993-成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -3387,7 +3613,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPVOMLMJJHLGFAH18DA--成屋"
+      "id": "RPVOMLMJJHLGFAH18DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -3417,7 +3645,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPSNMLRJJHLGFAH28CB--預售"
+      "id": "RPSNMLRJJHLGFAH28CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -3447,7 +3677,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPWOMLTLJHLGFAH56DA-02726-成屋"
+      "id": "RPWOMLTLJHLGFAH56DA-02726-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -3477,7 +3709,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "內附傢俱設備",
-      "id": "RPSOMLMLJHLGFAH08DA--成屋"
+      "id": "RPSOMLMLJHLGFAH08DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -3507,7 +3741,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPRNMLLMKIKGFAH97CB--預售"
+      "id": "RPRNMLLMKIKGFAH97CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -3537,7 +3773,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPUNMLMLJHLGFAH18DA-1031-成屋"
+      "id": "RPUNMLMLJHLGFAH18DA-1031-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -3567,7 +3805,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPWPMLQKJHLGFAH88DA--成屋"
+      "id": "RPWPMLQKJHLGFAH88DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -3597,7 +3837,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPQNMLQLKIKGFAH28DA--成屋"
+      "id": "RPQNMLQLKIKGFAH28DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -3627,7 +3869,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPUNMLRJJHLGFAH48DA--成屋"
+      "id": "RPUNMLRJJHLGFAH48DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -3657,7 +3901,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPVNMLPKJHLGFAH58EA-0909-成屋"
+      "id": "RPVNMLPKJHLGFAH58EA-0909-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -3687,7 +3933,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPNMLSLJHLGFAH38EA-1126-成屋"
+      "id": "RPPNMLSLJHLGFAH38EA-1126-成屋",
+      "parkingCount": 2,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -3717,7 +3965,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPRNMLSJJHLGFAH38EA-0811-成屋"
+      "id": "RPRNMLSJJHLGFAH38EA-0811-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -3747,7 +3997,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "交易總價 :  新台幣1912萬元正 土地1015萬元+房屋677萬元+車位220萬元",
-      "id": "RPVOMLQKLHLGFAH88DA--成屋"
+      "id": "RPVOMLQKLHLGFAH88DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -3777,7 +4029,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPQPMLTLJHLGFAH68DA--成屋"
+      "id": "RPQPMLTLJHLGFAH68DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -3807,7 +4061,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPNMLTJKIKGFAH28CB--預售"
+      "id": "RPPNMLTJKIKGFAH28CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -3837,7 +4093,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPQNMLMKKIKGFAH77CB--預售"
+      "id": "RPQNMLMKKIKGFAH77CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -3867,7 +4125,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "含傢俱設備費；",
-      "id": "RPSNMLPKKIKGFAH28DA-1640-成屋"
+      "id": "RPSNMLPKKIKGFAH28DA-1640-成屋",
+      "parkingCount": 2,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -3897,7 +4157,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPXNMLTJKHLGFAH09DA--成屋"
+      "id": "RPXNMLTJKHLGFAH09DA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -3927,7 +4189,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPWOMLQKKIKGFAH88DA--成屋"
+      "id": "RPWOMLQKKIKGFAH88DA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "預售",
@@ -3957,7 +4221,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPRNMLTJKIKGFAH48CB--預售"
+      "id": "RPRNMLTJKIKGFAH48CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -3987,7 +4253,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPPNMLSLKIKGFAH38DA--成屋"
+      "id": "RPPNMLSLKIKGFAH38DA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -4017,7 +4285,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPNMLLKKIKGFAH57DA--成屋"
+      "id": "RPPNMLLKKIKGFAH57DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -4047,7 +4317,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPSOMLTKKIKGFAH78DA--成屋"
+      "id": "RPSOMLTKKIKGFAH78DA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "預售",
@@ -4077,7 +4349,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPQNMLTJKIKGFAH38CB--預售"
+      "id": "RPQNMLTJKIKGFAH38CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -4107,7 +4381,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPRNMLQLKIKGFAH38DA--成屋"
+      "id": "RPRNMLQLKIKGFAH38DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -4137,7 +4413,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPNMLOLJIKGFAH97DB--預售"
+      "id": "RPPNMLOLJIKGFAH97DB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -4167,7 +4445,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPSNMLRJKHLGFAH38DA-03046-成屋"
+      "id": "RPSNMLRJKHLGFAH38DA-03046-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -4197,7 +4477,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPQNMLTJJHLGFAH38EA-1839-成屋"
+      "id": "RPQNMLTJJHLGFAH38EA-1839-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -4227,7 +4509,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPROMLMKLHLGFAH08DA-03040-成屋"
+      "id": "RPROMLMKLHLGFAH08DA-03040-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -4257,7 +4541,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPUOMLKMJHLGFAH18DA--成屋"
+      "id": "RPUOMLKMJHLGFAH18DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -4287,7 +4573,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPTOMLTKKIKGFAH88DA--成屋"
+      "id": "RPTOMLTKKIKGFAH88DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -4317,7 +4605,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPWOMLQKJHLGFAH78DA--成屋"
+      "id": "RPWOMLQKJHLGFAH78DA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -4347,7 +4637,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPVOMLSKJIKGFAH88DA-00025-成屋"
+      "id": "RPVOMLSKJIKGFAH88DA-00025-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -4377,7 +4669,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPVOMLLJKIKGFAH18DA--成屋"
+      "id": "RPVOMLLJKIKGFAH18DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -4407,7 +4701,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPWOMLLJKIKGFAH28DA--成屋"
+      "id": "RPWOMLLJKIKGFAH28DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -4437,7 +4733,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPTNMLNJKIKGFAH08DA-1606-成屋"
+      "id": "RPTNMLNJKIKGFAH08DA-1606-成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -4467,7 +4765,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPWNMLLLJIKGFAH28DA--成屋"
+      "id": "RPWNMLLLJIKGFAH28DA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -4497,7 +4797,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPQOMLQKKIKGFAH28DA-1568-成屋"
+      "id": "RPQOMLQKKIKGFAH28DA-1568-成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -4527,7 +4829,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPOOMLTJJHLGFAH18DA-1801-成屋"
+      "id": "RPOOMLTJJHLGFAH18DA-1801-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -4557,7 +4861,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPXPMLSJJHLGFAH09DA-1841-成屋"
+      "id": "RPXPMLSJJHLGFAH09DA-1841-成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -4587,7 +4893,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPPNMLKKKIKGFAH57EA--成屋"
+      "id": "RPPNMLKKKIKGFAH57EA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -4617,7 +4925,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "交易總價:新台幣1912萬元正 土地1009萬元+房屋673萬元+車位230萬元",
-      "id": "RPVPMLOKJHLGFAH58DA--成屋"
+      "id": "RPVPMLOKJHLGFAH58DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -4647,7 +4957,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPNMLLLJIKGFAH57CB--預售"
+      "id": "RPPNMLLLJIKGFAH57CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -4677,7 +4989,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPTNMLNJKHLGFAH08DA-2055-成屋"
+      "id": "RPTNMLNJKHLGFAH08DA-2055-成屋",
+      "parkingCount": 2,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -4707,7 +5021,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "陽台外推；",
-      "id": "RPTNMLQLKIKGFAH58DA--成屋"
+      "id": "RPTNMLQLKIKGFAH58DA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "預售",
@@ -4737,7 +5053,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPNMLTKJIKGFAH28CB--預售"
+      "id": "RPPNMLTKJIKGFAH28CB--預售",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -4767,7 +5085,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPQOMLQLJIKGFAH28DA--成屋"
+      "id": "RPQOMLQLJIKGFAH28DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -4797,7 +5117,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPRNMLKKJIKGFAH57CB--預售"
+      "id": "RPRNMLKKJIKGFAH57CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -4827,7 +5149,9 @@
       "ageLabel": "11-20年",
       "referenceGroup": false,
       "note": "其他增建；",
-      "id": "RPVNMLOLIIKGFAH38DA--成屋"
+      "id": "RPVNMLOLIIKGFAH38DA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -4857,7 +5181,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "夾層；",
-      "id": "RPPNMLKMIIKGFAH47DA-00401-成屋"
+      "id": "RPPNMLKMIIKGFAH47DA-00401-成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "預售",
@@ -4887,7 +5213,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPNMLLMIIKGFAH57CB--預售"
+      "id": "RPPNMLLMIIKGFAH57CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -4917,7 +5245,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPQNMLLMIIKGFAH67CB--預售"
+      "id": "RPQNMLLMIIKGFAH67CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -4947,7 +5277,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPNMLSLIIKGFAH18CB--預售"
+      "id": "RPPNMLSLIIKGFAH18CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -4977,7 +5309,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPXNMLSJKIKGFAH98DA-2181-成屋"
+      "id": "RPXNMLSJKIKGFAH98DA-2181-成屋",
+      "parkingCount": 2,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -5007,7 +5341,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPWNMLNKJIKGFAH38DA--成屋"
+      "id": "RPWNMLNKJIKGFAH38DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -5037,7 +5373,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPOPMLNJJIKGFAH67DA-00437-成屋"
+      "id": "RPOPMLNJJIKGFAH67DA-00437-成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -5067,7 +5405,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPTNMLOLIIKGFAH18DA-2249-成屋"
+      "id": "RPTNMLOLIIKGFAH18DA-2249-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -5097,7 +5437,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPQOMLQJJHLGFAH08DA-2431-成屋"
+      "id": "RPQOMLQJJHLGFAH08DA-2431-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -5127,7 +5469,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "交易總價:新台幣1863萬元正 土地998萬元+房屋665萬元+車位200萬元",
-      "id": "RPPPMLTLJHLGFAH58DA--成屋"
+      "id": "RPPPMLTLJHLGFAH58DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -5157,7 +5501,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "其他增建；",
-      "id": "RPOVMLRKKIKGFAH88DA--成屋"
+      "id": "RPOVMLRKKIKGFAH88DA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "預售",
@@ -5187,7 +5533,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPQNMLKMIIKGFAH57CB--預售"
+      "id": "RPQNMLKMIIKGFAH57CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -5217,7 +5565,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPTNMLRKIIKGFAH38DA--成屋"
+      "id": "RPTNMLRKIIKGFAH38DA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -5247,7 +5597,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "陽台外推；其他增建；",
-      "id": "RPSNMLOLIIKGFAH08DA--成屋"
+      "id": "RPSNMLOLIIKGFAH08DA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "預售",
@@ -5277,7 +5629,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPNMLNLIIKGFAH67CB--預售"
+      "id": "RPPNMLNLIIKGFAH67CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -5307,7 +5661,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "陽台外推；其他增建；",
-      "id": "RPPNMLLJKIKGFAH57EA--成屋"
+      "id": "RPPNMLLJKIKGFAH57EA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -5337,7 +5693,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPQOMLPJJIKGFAH97DA--成屋"
+      "id": "RPQOMLPJJIKGFAH97DA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -5367,7 +5725,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPNMLPKJIKGFAH87DA-00633-成屋"
+      "id": "RPPNMLPKJIKGFAH87DA-00633-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -5397,7 +5757,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPQNMLSKJIKGFAH28DA-00752-成屋"
+      "id": "RPQNMLSKJIKGFAH28DA-00752-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -5427,7 +5789,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPUNMLMKKIKGFAH18DA--成屋"
+      "id": "RPUNMLMKKIKGFAH18DA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -5457,7 +5821,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPWTMLSKKIKGFAH96DA-2476-成屋"
+      "id": "RPWTMLSKKIKGFAH96DA-2476-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -5487,7 +5853,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPWNMLKLIIKGFAH08DA-00528-成屋"
+      "id": "RPWNMLKLIIKGFAH08DA-00528-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -5517,7 +5885,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPVMLNJKIKGFAH48DA-2598-成屋"
+      "id": "RPPVMLNJKIKGFAH48DA-2598-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -5547,7 +5917,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPNMLKLIIKGFAH37CB--預售"
+      "id": "RPPNMLKLIIKGFAH37CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -5577,7 +5949,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPXOMLKMIIKGFAH38DA--成屋"
+      "id": "RPXOMLKMIIKGFAH38DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -5607,7 +5981,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPSNMLKMRHKGFAH58DA-00968-成屋"
+      "id": "RPSNMLKMRHKGFAH58DA-00968-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -5637,7 +6013,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPVNMLPJJIKGFAH38DA-2646-成屋"
+      "id": "RPVNMLPJJIKGFAH38DA-2646-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -5667,7 +6045,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPQNMLLMIIKGFAH67DA-01356-成屋"
+      "id": "RPQNMLLMIIKGFAH67DA-01356-成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -5697,7 +6077,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPQOMLSJKIKGFAH38DA-2726-成屋"
+      "id": "RPQOMLSJKIKGFAH38DA-2726-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -5727,7 +6109,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPUOMLKMIIKGFAH08DA--成屋"
+      "id": "RPUOMLKMIIKGFAH08DA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -5757,7 +6141,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPUNMLOLRHKGFAH09DA-00996-成屋"
+      "id": "RPUNMLOLRHKGFAH09DA-00996-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -5787,7 +6173,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPQOMLRKJIKGFAH28DA--成屋"
+      "id": "RPQOMLRKJIKGFAH28DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -5817,7 +6205,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPQOMLPLRHKGFAH88DA--成屋"
+      "id": "RPQOMLPLRHKGFAH88DA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -5847,7 +6237,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "陽台外推；",
-      "id": "RPWNMLLJIIKGFAH08EA-00918-成屋"
+      "id": "RPWNMLLJIIKGFAH08EA-00918-成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -5877,7 +6269,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPTNMLOKIIKGFAH08DA--成屋"
+      "id": "RPTNMLOKIIKGFAH08DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -5907,7 +6301,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPPNMLNLIIKGFAH77EA-01178-成屋"
+      "id": "RPPNMLNLIIKGFAH77EA-01178-成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "預售",
@@ -5937,7 +6333,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPNMLPLRHKGFAH68CB--預售"
+      "id": "RPPNMLPLRHKGFAH68CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -5967,7 +6365,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPROMLRKJIKGFAH38DA--成屋"
+      "id": "RPROMLRKJIKGFAH38DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -5997,7 +6397,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "其他增建；",
-      "id": "RPUPMLLJIIKGFAH97DA-02023-成屋"
+      "id": "RPUPMLLJIIKGFAH97DA-02023-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -6027,7 +6429,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPOQMLKKRHKGFAH28DA--成屋"
+      "id": "RPOQMLKKRHKGFAH28DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -6057,7 +6461,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "其他增建；",
-      "id": "RPXPMLQJJIKGFAH88DA-02155-成屋"
+      "id": "RPXPMLQJJIKGFAH88DA-02155-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -6087,7 +6493,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "親友、員工、共有人或其他特殊關係間之交易；",
-      "id": "RPWOMLPJRHKGFAH66DA--成屋"
+      "id": "RPWOMLPJRHKGFAH66DA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -6117,7 +6525,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPSNMLSKRHKGFAH56DA-02021-成屋"
+      "id": "RPSNMLSKRHKGFAH56DA-02021-成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -6147,7 +6557,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPPMLNJRHKGFAH48DA-01791-成屋"
+      "id": "RPPPMLNJRHKGFAH48DA-01791-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -6177,7 +6589,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "",
-      "id": "RPUNMLOJRHKGFAH88DA-02105-成屋"
+      "id": "RPUNMLOJRHKGFAH88DA-02105-成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -6207,7 +6621,9 @@
       "ageLabel": "20年以上",
       "referenceGroup": false,
       "note": "陽台外推；其他增建；",
-      "id": "RPWNMLTJRHKGFAH96DA--成屋"
+      "id": "RPWNMLTJRHKGFAH96DA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -6237,7 +6653,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPTOMLPJRHKGFAH98DA--成屋"
+      "id": "RPTOMLPJRHKGFAH98DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -6267,7 +6685,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPXPMLRKRHKGFAH17DA--成屋"
+      "id": "RPXPMLRKRHKGFAH17DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -6297,7 +6717,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPNMLMJRHKGFAH18CB--預售"
+      "id": "RPPNMLMJRHKGFAH18CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -6327,7 +6749,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPQNMLMJRHKGFAH28CB--預售"
+      "id": "RPQNMLMJRHKGFAH28CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -6357,7 +6781,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPNMLNJIIKGFAH47DA-01897-成屋"
+      "id": "RPPNMLNJIIKGFAH47DA-01897-成屋",
+      "parkingCount": 2,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -6387,7 +6813,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPNMLSLQHKGFAH88CB--預售"
+      "id": "RPPNMLSLQHKGFAH88CB--預售",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -6417,7 +6845,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "交易總價 : 新台幣1857萬元正 土地988萬元+房屋659萬元+車位210萬元",
-      "id": "RPXPMLSLIIKGFAH56DA--成屋"
+      "id": "RPXPMLSLIIKGFAH56DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "預售",
@@ -6447,7 +6877,9 @@
       "ageLabel": "預售 / 未完工",
       "referenceGroup": true,
       "note": "露臺面積:3.04坪",
-      "id": "RPPNMLNKQHKGFAH28CB--預售"
+      "id": "RPPNMLNKQHKGFAH28CB--預售",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     }
   ],
   "communityHistory": [
@@ -6479,7 +6911,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "內政部實價登錄查詢網前台查詢，清單未揭露車位坪數及車位價格，故不拆算車位。",
-      "id": "MOI-QUERY-YUANQINGXI-20260511-22-12F"
+      "id": "MOI-QUERY-YUANQINGXI-20260511-22-12F",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -6496,20 +6930,23 @@
       "halls": "2",
       "baths": "2",
       "totalPriceWan": 2450,
-      "parkingPriceWan": 0,
-      "housePriceWan": 0,
+      "parkingPriceWan": 400,
+      "housePriceWan": 2050,
       "totalPing": 65.92,
       "parkingPing": 21.21,
       "housePing": 44.71,
-      "unitPriceWanPerPing": 0,
+      "unitPriceWanPerPing": 45.9,
       "officialUnitWanPerPing": 37.16,
-      "splitAvailable": false,
+      "splitAvailable": true,
       "parkingType": "坡道平面",
       "buildingAge": 3,
       "ageLabel": "5年內",
       "referenceGroup": true,
-      "note": "內政部實價登錄查詢網前台查詢；此筆與批次檔相同，去重後不重複列出。",
-      "id": "RPTOMLKMJHLGFAH08DA-02750-成屋"
+      "note": "內政部實價登錄查詢網前台查詢；此筆與批次檔相同，去重後不重複列出。 車位價格未揭露，依遠雄青溪近三年已揭露車位價格均價估算。",
+      "id": "RPTOMLKMJHLGFAH08DA-02750-成屋",
+      "parkingCount": 2,
+      "parkingCountEstimated": true,
+      "parkingPriceEstimated": true
     },
     {
       "kind": "成屋",
@@ -6526,20 +6963,23 @@
       "halls": "2",
       "baths": "2",
       "totalPriceWan": 1875,
-      "parkingPriceWan": 0,
-      "housePriceWan": 0,
+      "parkingPriceWan": 200,
+      "housePriceWan": 1675,
       "totalPing": 45.78,
       "parkingPing": 10.61,
       "housePing": 35.17,
-      "unitPriceWanPerPing": 0,
+      "unitPriceWanPerPing": 47.6,
       "officialUnitWanPerPing": 41.0,
-      "splitAvailable": false,
+      "splitAvailable": true,
       "parkingType": "坡道平面",
       "buildingAge": 3,
       "ageLabel": "5年內",
       "referenceGroup": true,
-      "note": "",
-      "id": "RPOQMLPKNHKGFAH38DA-02717-成屋"
+      "note": "車位價格未揭露，依遠雄青溪近三年已揭露車位價格均價估算。",
+      "id": "RPOQMLPKNHKGFAH38DA-02717-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true,
+      "parkingPriceEstimated": true
     },
     {
       "kind": "成屋",
@@ -6569,7 +7009,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "",
-      "id": "RPPOMLPLIIIGFAH77DA-02151-成屋"
+      "id": "RPPOMLPLIIIGFAH77DA-02151-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -6586,20 +7028,23 @@
       "halls": "1",
       "baths": "2",
       "totalPriceWan": 1555,
-      "parkingPriceWan": 0,
-      "housePriceWan": 0,
+      "parkingPriceWan": 200,
+      "housePriceWan": 1355,
       "totalPing": 45.75,
       "parkingPing": 10.61,
       "housePing": 35.14,
-      "unitPriceWanPerPing": 0,
+      "unitPriceWanPerPing": 38.6,
       "officialUnitWanPerPing": 34.0,
-      "splitAvailable": false,
+      "splitAvailable": true,
       "parkingType": "坡道平面",
       "buildingAge": 1,
       "ageLabel": "5年內",
       "referenceGroup": true,
-      "note": "",
-      "id": "RPPNMLPJRHIGFAH28DA-01352-成屋"
+      "note": "車位價格未揭露，依遠雄青溪近三年已揭露車位價格均價估算。",
+      "id": "RPPNMLPJRHIGFAH28DA-01352-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true,
+      "parkingPriceEstimated": true
     },
     {
       "kind": "成屋",
@@ -6616,20 +7061,23 @@
       "halls": "2",
       "baths": "2",
       "totalPriceWan": 1780,
-      "parkingPriceWan": 0,
-      "housePriceWan": 0,
+      "parkingPriceWan": 200,
+      "housePriceWan": 1580,
       "totalPing": 50.74,
       "parkingPing": 10.61,
       "housePing": 40.13,
-      "unitPriceWanPerPing": 0,
+      "unitPriceWanPerPing": 39.4,
       "officialUnitWanPerPing": 35.1,
-      "splitAvailable": false,
+      "splitAvailable": true,
       "parkingType": "坡道平面",
       "buildingAge": 1,
       "ageLabel": "5年內",
       "referenceGroup": true,
-      "note": "",
-      "id": "RPXPMLNKPHIGFAH98DA-00618-成屋"
+      "note": "車位價格未揭露，依遠雄青溪近三年已揭露車位價格均價估算。",
+      "id": "RPXPMLNKPHIGFAH98DA-00618-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true,
+      "parkingPriceEstimated": true
     },
     {
       "kind": "成屋",
@@ -6646,20 +7094,23 @@
       "halls": "2",
       "baths": "2",
       "totalPriceWan": 1551,
-      "parkingPriceWan": 0,
-      "housePriceWan": 0,
+      "parkingPriceWan": 200,
+      "housePriceWan": 1351,
       "totalPing": 45.74,
       "parkingPing": 10.61,
       "housePing": 35.14,
-      "unitPriceWanPerPing": 0,
+      "unitPriceWanPerPing": 38.4,
       "officialUnitWanPerPing": 33.9,
-      "splitAvailable": false,
+      "splitAvailable": true,
       "parkingType": "坡道平面",
       "buildingAge": 1,
       "ageLabel": "5年內",
       "referenceGroup": true,
-      "note": "",
-      "id": "RPSOMLMLNHIGFAH18DA-00973-成屋"
+      "note": "車位價格未揭露，依遠雄青溪近三年已揭露車位價格均價估算。",
+      "id": "RPSOMLMLNHIGFAH18DA-00973-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true,
+      "parkingPriceEstimated": true
     },
     {
       "kind": "成屋",
@@ -6676,20 +7127,23 @@
       "halls": "1",
       "baths": "1",
       "totalPriceWan": 1395,
-      "parkingPriceWan": 0,
-      "housePriceWan": 0,
+      "parkingPriceWan": 200,
+      "housePriceWan": 1195,
       "totalPing": 41.24,
       "parkingPing": 10.61,
       "housePing": 30.63,
-      "unitPriceWanPerPing": 0,
+      "unitPriceWanPerPing": 39.0,
       "officialUnitWanPerPing": 33.8,
-      "splitAvailable": false,
+      "splitAvailable": true,
       "parkingType": "坡道平面",
       "buildingAge": 1,
       "ageLabel": "5年內",
       "referenceGroup": true,
-      "note": "",
-      "id": "RPQNMLQLNHIGFAH28DA-01281-成屋"
+      "note": "車位價格未揭露，依遠雄青溪近三年已揭露車位價格均價估算。",
+      "id": "RPQNMLQLNHIGFAH28DA-01281-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true,
+      "parkingPriceEstimated": true
     },
     {
       "kind": "成屋",
@@ -6706,20 +7160,23 @@
       "halls": "2",
       "baths": "1",
       "totalPriceWan": 1388,
-      "parkingPriceWan": 0,
-      "housePriceWan": 0,
+      "parkingPriceWan": 200,
+      "housePriceWan": 1188,
       "totalPing": 41.24,
       "parkingPing": 10.61,
       "housePing": 30.63,
-      "unitPriceWanPerPing": 0,
+      "unitPriceWanPerPing": 38.8,
       "officialUnitWanPerPing": 33.7,
-      "splitAvailable": false,
+      "splitAvailable": true,
       "parkingType": "坡道平面",
       "buildingAge": 1,
       "ageLabel": "5年內",
       "referenceGroup": true,
-      "note": "",
-      "id": "RPWPMLMKMHIGFAH48DA-01826-成屋"
+      "note": "車位價格未揭露，依遠雄青溪近三年已揭露車位價格均價估算。",
+      "id": "RPWPMLMKMHIGFAH48DA-01826-成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true,
+      "parkingPriceEstimated": true
     },
     {
       "kind": "成屋",
@@ -6749,7 +7206,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "110.06.25原價轉讓預售屋、或土地及建物分件登記案件；",
-      "id": "RPVPMLPJIIHGFAH18DA--成屋"
+      "id": "RPVPMLPJIIHGFAH18DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -6779,7 +7238,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "111.06.25原價轉讓預售屋、或土地及建物分件登記案件；",
-      "id": "RPROMLNLRHHGFAH48DA--成屋"
+      "id": "RPROMLNLRHHGFAH48DA--成屋",
+      "parkingCount": 2,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -6809,7 +7270,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPQNMLNLRHHGFAH28DA--成屋"
+      "id": "RPQNMLNLRHHGFAH28DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -6839,7 +7302,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "111.07.04原價轉讓預售屋、或土地及建物分件登記案件；",
-      "id": "RPXQMLPJIIHGFAH48DA--成屋"
+      "id": "RPXQMLPJIIHGFAH48DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -6869,7 +7334,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPTOMLRLRHHGFAH09DA--成屋"
+      "id": "RPTOMLRLRHHGFAH09DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -6899,7 +7366,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "111.06.23原價轉讓預售屋、或土地及建物分件登記案件；",
-      "id": "RPOQMLRLRHHGFAH78DA--成屋"
+      "id": "RPOQMLRLRHHGFAH78DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -6929,7 +7398,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "110.12.15原價轉讓預售屋、或土地及建物分件登記案件；",
-      "id": "RPOOMLOJIIHGFAH27DA--成屋"
+      "id": "RPOOMLOJIIHGFAH27DA--成屋",
+      "parkingCount": 2,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -6959,7 +7430,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "111.06.24原價轉讓預售屋、或土地及建物分件登記案件；",
-      "id": "RPVPMLRLRHHGFAH76DA--成屋"
+      "id": "RPVPMLRLRHHGFAH76DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -6989,7 +7462,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "111.06.27原價轉讓預售屋、或土地及建物分件登記案件；",
-      "id": "RPVPMLKMRHHGFAH78DA--成屋"
+      "id": "RPVPMLKMRHHGFAH78DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7019,7 +7494,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPRSMLOJIIHGFAH97DA--成屋"
+      "id": "RPRSMLOJIIHGFAH97DA--成屋",
+      "parkingCount": 2,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7049,7 +7526,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPUPMLRLRHHGFAH66DA--成屋"
+      "id": "RPUPMLRLRHHGFAH66DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7079,7 +7558,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPSPMLRLRHHGFAH09DA--成屋"
+      "id": "RPSPMLRLRHHGFAH09DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7109,7 +7590,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPXQMLOJIIHGFAH38DA--成屋"
+      "id": "RPXQMLOJIIHGFAH38DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7139,7 +7622,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPQRMLOJIIHGFAH77DA--成屋"
+      "id": "RPQRMLOJIIHGFAH77DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7169,7 +7654,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPTPMLRJIIHGFAH18DA--成屋"
+      "id": "RPTPMLRJIIHGFAH18DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7199,7 +7686,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPQUMLNJIIHGFAH97DA--成屋"
+      "id": "RPQUMLNJIIHGFAH97DA--成屋",
+      "parkingCount": 2,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7229,7 +7718,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "111.04.20轉讓金額新台幣1136萬元含車位價款175萬預售屋、或土地及建物分件登記案件；",
-      "id": "RPWQMLOJIIHGFAH28DA--成屋"
+      "id": "RPWQMLOJIIHGFAH28DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7259,7 +7750,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPQOMLRLRHHGFAH78DA--成屋"
+      "id": "RPQOMLRLRHHGFAH78DA--成屋",
+      "parkingCount": 2,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7289,7 +7782,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPXNMLQJIIHGFAH28DA--成屋"
+      "id": "RPXNMLQJIIHGFAH28DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7319,7 +7814,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPWPMLRLRHHGFAH86DA--成屋"
+      "id": "RPWPMLRLRHHGFAH86DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7349,7 +7846,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPXNMLKMRHHGFAH78DA--成屋"
+      "id": "RPXNMLKMRHHGFAH78DA--成屋",
+      "parkingCount": 2,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7379,7 +7878,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPQTMLNJIIHGFAH87DA--成屋"
+      "id": "RPQTMLNJIIHGFAH87DA--成屋",
+      "parkingCount": 2,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7409,7 +7910,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "111.06.24原價轉讓預售屋、或土地及建物分件登記案件；",
-      "id": "RPVRMLOJIIHGFAH28DA--成屋"
+      "id": "RPVRMLOJIIHGFAH28DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7439,7 +7942,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPWOMLRJIIHGFAH38DA--成屋"
+      "id": "RPWOMLRJIIHGFAH38DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7469,7 +7974,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "111.03.28轉讓金額新台幣1600萬元含車位價款400萬預售屋、或土地及建物分件登記案件；",
-      "id": "RPROMLKMRHHGFAH28DA--成屋"
+      "id": "RPROMLKMRHHGFAH28DA--成屋",
+      "parkingCount": 2,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7499,7 +8006,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPOSMLRLRHHGFAH98DA--成屋"
+      "id": "RPOSMLRLRHHGFAH98DA--成屋",
+      "parkingCount": 2,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7529,7 +8038,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "111.09.12原價轉讓預售屋、或土地及建物分件登記案件；",
-      "id": "RPRRMLOJIIHGFAH87DA--成屋"
+      "id": "RPRRMLOJIIHGFAH87DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7559,7 +8070,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPWQMLKMRHHGFAH98DA--成屋"
+      "id": "RPWQMLKMRHHGFAH98DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7589,7 +8102,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPSRMLPJIIHGFAH08DA--成屋"
+      "id": "RPSRMLPJIIHGFAH08DA--成屋",
+      "parkingCount": 2,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7619,7 +8134,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPWTMLNJIIHGFAH48DA--成屋"
+      "id": "RPWTMLNJIIHGFAH48DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7649,7 +8166,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPTOMLOJIIHGFAH77DA--成屋"
+      "id": "RPTOMLOJIIHGFAH77DA--成屋",
+      "parkingCount": 2,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7679,7 +8198,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "111.02.24轉讓金額新台幣1075萬元含車位價款172萬預售屋、或土地及建物分件登記案件；",
-      "id": "RPXQMLRLRHHGFAH07DA--成屋"
+      "id": "RPXQMLRLRHHGFAH07DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7709,7 +8230,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPSPMLPJIIHGFAH87DA--成屋"
+      "id": "RPSPMLPJIIHGFAH87DA--成屋",
+      "parkingCount": 2,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7739,7 +8262,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPUQMLOJIIHGFAH08DA--成屋"
+      "id": "RPUQMLOJIIHGFAH08DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7769,7 +8294,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPRPMLKMRHHGFAH38DA--成屋"
+      "id": "RPRPMLKMRHHGFAH38DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7799,7 +8326,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPRQMLKMRHHGFAH48DA--成屋"
+      "id": "RPRQMLKMRHHGFAH48DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7829,7 +8358,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPQQMLRLRHHGFAH98DA--成屋"
+      "id": "RPQQMLRLRHHGFAH98DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7859,7 +8390,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPWPMLPJIIHGFAH28DA--成屋"
+      "id": "RPWPMLPJIIHGFAH28DA--成屋",
+      "parkingCount": 2,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7889,7 +8422,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPRPMLRJIIHGFAH97DA--成屋"
+      "id": "RPRPMLRJIIHGFAH97DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7919,7 +8454,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPVQMLKMRHHGFAH88DA--成屋"
+      "id": "RPVQMLKMRHHGFAH88DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7949,7 +8486,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPVPMLRJIIHGFAH38DA--成屋"
+      "id": "RPVPMLRJIIHGFAH38DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -7979,7 +8518,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPROMLRLRHHGFAH88DA--成屋"
+      "id": "RPROMLRLRHHGFAH88DA--成屋",
+      "parkingCount": 2,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -8009,7 +8550,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPVNMLNLRHHGFAH78DA--成屋"
+      "id": "RPVNMLNLRHHGFAH78DA--成屋",
+      "parkingCount": 2,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -8039,7 +8582,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPPUMLNJIIHGFAH87DA--成屋"
+      "id": "RPPUMLNJIIHGFAH87DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -8069,7 +8614,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPQPMLNLRHHGFAH48DA--成屋"
+      "id": "RPQPMLNLRHHGFAH48DA--成屋",
+      "parkingCount": 2,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -8099,7 +8646,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPRPMLRLRHHGFAH98DA--成屋"
+      "id": "RPRPMLRLRHHGFAH98DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -8129,7 +8678,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPWSMLNJIIHGFAH38DA--成屋"
+      "id": "RPWSMLNJIIHGFAH38DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -8159,7 +8710,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPWOMLRLRHHGFAH76DA--成屋"
+      "id": "RPWOMLRLRHHGFAH76DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -8189,7 +8742,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPUNMLNLRHHGFAH68DA--成屋"
+      "id": "RPUNMLNLRHHGFAH68DA--成屋",
+      "parkingCount": 2,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -8219,7 +8774,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "111.01.10原價轉讓預售屋、或土地及建物分件登記案件；",
-      "id": "RPWRMLOJIIHGFAH38DA--成屋"
+      "id": "RPWRMLOJIIHGFAH38DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -8249,7 +8806,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "111.01.10原價轉讓預售屋、或土地及建物分件登記案件；",
-      "id": "RPQOMLRJIIHGFAH77DA--成屋"
+      "id": "RPQOMLRJIIHGFAH77DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -8279,7 +8838,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPORMLOJIIHGFAH57DA--成屋"
+      "id": "RPORMLOJIIHGFAH57DA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -8309,7 +8870,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPRRMLPJIIHGFAH97DA--成屋"
+      "id": "RPRRMLPJIIHGFAH97DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -8339,7 +8902,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "110.06.11原價轉讓預售屋、或土地及建物分件登記案件；",
-      "id": "RPXOMLOJIIHGFAH18DA--成屋"
+      "id": "RPXOMLOJIIHGFAH18DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -8369,7 +8934,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPUOMLOJIIHGFAH87DA--成屋"
+      "id": "RPUOMLOJIIHGFAH87DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -8399,7 +8966,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPSOMLKMRHHGFAH38DA--成屋"
+      "id": "RPSOMLKMRHHGFAH38DA--成屋",
+      "parkingCount": 2,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -8429,7 +8998,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPUQMLPJIIHGFAH18DA--成屋"
+      "id": "RPUQMLPJIIHGFAH18DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -8459,7 +9030,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPTPMLRLRHHGFAH56DA--成屋"
+      "id": "RPTPMLRLRHHGFAH56DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -8489,7 +9062,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "111.06.24原價轉讓預售屋、或土地及建物分件登記案件；",
-      "id": "RPQOMLNLRHHGFAH38DA--成屋"
+      "id": "RPQOMLNLRHHGFAH38DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -8519,7 +9094,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPPSMLOJIIHGFAH77DA--成屋"
+      "id": "RPPSMLOJIIHGFAH77DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -8549,7 +9126,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPVTMLNJIIHGFAH38DA--成屋"
+      "id": "RPVTMLNJIIHGFAH38DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -8579,7 +9158,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "109.09.18轉讓金額新台幣1380萬元含車位價款152萬預售屋、或土地及建物分件登記案件；",
-      "id": "RPOSMLOJIIHGFAH67DA--成屋"
+      "id": "RPOSMLOJIIHGFAH67DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -8609,7 +9190,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "111.06.24原價轉讓預售屋、或土地及建物分件登記案件；",
-      "id": "RPSUMLNJIIHGFAH18DA--成屋"
+      "id": "RPSUMLNJIIHGFAH18DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -8639,7 +9222,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "110.08.16轉讓金額新台幣1450萬元含車位價款185萬預售屋、或土地及建物分件登記案件；",
-      "id": "RPORMLRLRHHGFAH88DA--成屋"
+      "id": "RPORMLRLRHHGFAH88DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -8669,7 +9254,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPSRMLRLRHHGFAH66DA--成屋"
+      "id": "RPSRMLRLRHHGFAH66DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -8699,7 +9286,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPXNMLOJIIHGFAH08DA--成屋"
+      "id": "RPXNMLOJIIHGFAH08DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -8729,7 +9318,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "110.09.03轉讓金額新台幣1055萬元111.06.23依前次轉讓金額轉讓預售屋、或土地及建物分件登記案件；",
-      "id": "RPWTMLLLIIHGFAH48DA--成屋"
+      "id": "RPWTMLLLIIHGFAH48DA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -8759,7 +9350,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "111.06.24原價轉讓預售屋、或土地及建物分件登記案件；",
-      "id": "RPWUMLLLIIHGFAH58DA--成屋"
+      "id": "RPWUMLLLIIHGFAH58DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -8789,7 +9382,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPPQMLKMRHHGFAH28DA--成屋"
+      "id": "RPPQMLKMRHHGFAH28DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -8819,7 +9414,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "110.08.26轉讓金額新台幣1250萬元含車位價款175萬預售屋、或土地及建物分件登記案件；",
-      "id": "RPSPMLQJIIHGFAH97DA--成屋"
+      "id": "RPSPMLQJIIHGFAH97DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -8849,7 +9446,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "110.12.25原價轉讓預售屋、或土地及建物分件登記案件；",
-      "id": "RPVOMLRLRHHGFAH66DA--成屋"
+      "id": "RPVOMLRLRHHGFAH66DA--成屋",
+      "parkingCount": 0,
+      "parkingCountEstimated": false
     },
     {
       "kind": "成屋",
@@ -8879,7 +9478,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPOQMLKMRHHGFAH18DA--成屋"
+      "id": "RPOQMLKMRHHGFAH18DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -8909,7 +9510,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPXTMLNJIIHGFAH58DA--成屋"
+      "id": "RPXTMLNJIIHGFAH58DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -8939,7 +9542,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPQOMLOJIIHGFAH47DA--成屋"
+      "id": "RPQOMLOJIIHGFAH47DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -8969,7 +9574,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPUOMLNKKIHGFAH08DA--成屋"
+      "id": "RPUOMLNKKIHGFAH08DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -8999,7 +9606,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "110.06.26轉讓金額新台幣1280萬元含車位價款185萬預售屋、或土地及建物分件登記案件；",
-      "id": "RPSPMLRJIIHGFAH08DA--成屋"
+      "id": "RPSPMLRJIIHGFAH08DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9029,7 +9638,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPUPMLPJIIHGFAH08DA--成屋"
+      "id": "RPUPMLPJIIHGFAH08DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9059,7 +9670,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "110.06.15轉讓金額新台幣1280萬元含車位價款185萬預售屋、或土地及建物分件登記案件；",
-      "id": "RPPRMLPJIIHGFAH77DA--成屋"
+      "id": "RPPRMLPJIIHGFAH77DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9089,7 +9702,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPTQMLPJIIHGFAH08DA--成屋"
+      "id": "RPTQMLPJIIHGFAH08DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9119,7 +9734,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPOPMLRLRHHGFAH68DA--成屋"
+      "id": "RPOPMLRLRHHGFAH68DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9149,7 +9766,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "111.06.23原價轉讓預售屋、或土地及建物分件登記案件；",
-      "id": "RPXRMLRLRHHGFAH17DA--成屋"
+      "id": "RPXRMLRLRHHGFAH17DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9179,7 +9798,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPPPMLOJIIHGFAH47DA--成屋"
+      "id": "RPPPMLOJIIHGFAH47DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9209,7 +9830,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPXSMLNJIIHGFAH48DA--成屋"
+      "id": "RPXSMLNJIIHGFAH48DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9239,7 +9862,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPUOMLKMRHHGFAH58DA--成屋"
+      "id": "RPUOMLKMRHHGFAH58DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9269,7 +9894,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPUPMLQJIIHGFAH18DA--成屋"
+      "id": "RPUPMLQJIIHGFAH18DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9299,7 +9926,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPSQMLKMRHHGFAH58DA--成屋"
+      "id": "RPSQMLKMRHHGFAH58DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9329,7 +9958,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPOPMLRJIIHGFAH67DA--成屋"
+      "id": "RPOPMLRJIIHGFAH67DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9359,7 +9990,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "111.06.24原價轉讓預售屋、或土地及建物分件登記案件；",
-      "id": "RPVOMLKMRHHGFAH68DA--成屋"
+      "id": "RPVOMLKMRHHGFAH68DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9389,7 +10022,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPTNMLPJIIHGFAH77DA--成屋"
+      "id": "RPTNMLPJIIHGFAH77DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9419,7 +10054,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPSQMLPJIIHGFAH97DA--成屋"
+      "id": "RPSQMLPJIIHGFAH97DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9449,7 +10086,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPROMLRJIIHGFAH87DA--成屋"
+      "id": "RPROMLRJIIHGFAH87DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9479,7 +10118,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "109.08.27原價轉讓110.09.28轉讓金額新台幣1250萬元含車位價款155萬111.06.25依前次轉讓金額轉讓預售屋、或土地及建物分件登記案件；",
-      "id": "RPTSMLNJIIHGFAH08DA--成屋"
+      "id": "RPTSMLNJIIHGFAH08DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9509,7 +10150,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPQPMLRJIIHGFAH87DA--成屋"
+      "id": "RPQPMLRJIIHGFAH87DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9539,7 +10182,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPXRMLOJIIHGFAH48DA--成屋"
+      "id": "RPXRMLOJIIHGFAH48DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9569,7 +10214,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "111.06.24原價轉讓預售屋、或土地及建物分件登記案件；",
-      "id": "RPQSMLOJIIHGFAH87DA--成屋"
+      "id": "RPQSMLOJIIHGFAH87DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9599,7 +10246,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPPTMLLLIIHGFAH77DA--成屋"
+      "id": "RPPTMLLLIIHGFAH77DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9629,7 +10278,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPWRMLRLRHHGFAH07DA--成屋"
+      "id": "RPWRMLRLRHHGFAH07DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9659,7 +10310,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPUSMLNJIIHGFAH18DA--成屋"
+      "id": "RPUSMLNJIIHGFAH18DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9689,7 +10342,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPWOMLNJJIHGFAH08DA--成屋"
+      "id": "RPWOMLNJJIHGFAH08DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9719,7 +10374,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "111.03.27轉讓金額新台幣1200萬元含車位價款146萬預售屋、或土地及建物分件登記案件；",
-      "id": "RPPOMLRJIIHGFAH67DA--成屋"
+      "id": "RPPOMLRJIIHGFAH67DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9749,7 +10406,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPQRMLRLRHHGFAH09DA--成屋"
+      "id": "RPQRMLRLRHHGFAH09DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9779,7 +10438,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "111.06.08轉讓金額新台幣1400萬元含車位價款166萬預售屋、或土地及建物分件登記案件；",
-      "id": "RPVQMLRLRHHGFAH86DA--成屋"
+      "id": "RPVQMLRLRHHGFAH86DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9809,7 +10470,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "110.07.13原價轉讓預售屋、或土地及建物分件登記案件；",
-      "id": "RPOOMLKMRHHGFAH97DA--成屋"
+      "id": "RPOOMLKMRHHGFAH97DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9839,7 +10502,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "109.10.27原價轉讓預售屋、或土地及建物分件登記案件；",
-      "id": "RPSTMLNJIIHGFAH08DA--成屋"
+      "id": "RPSTMLNJIIHGFAH08DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9869,7 +10534,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "110.06.20轉讓金額新台幣1500萬元含車位價款180萬預售屋、或土地及建物分件登記案件；",
-      "id": "RPWQMLRLRHHGFAH96DA--成屋"
+      "id": "RPWQMLRLRHHGFAH96DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9899,7 +10566,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPVSMLNJIIHGFAH28DA--成屋"
+      "id": "RPVSMLNJIIHGFAH28DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9929,7 +10598,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "111.07.06原價轉讓預售屋、或土地及建物分件登記案件；",
-      "id": "RPWNMLQJIIHGFAH18DA--成屋"
+      "id": "RPWNMLQJIIHGFAH18DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9959,7 +10630,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPVNMLOJIIHGFAH87DA--成屋"
+      "id": "RPVNMLOJIIHGFAH87DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -9989,7 +10662,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPXOMLRLRHHGFAH86DA--成屋"
+      "id": "RPXOMLRLRHHGFAH86DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -10019,7 +10694,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "預售屋、或土地及建物分件登記案件；",
-      "id": "RPSNMLNLRHHGFAH48DA--成屋"
+      "id": "RPSNMLNLRHHGFAH48DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     },
     {
       "kind": "成屋",
@@ -10049,7 +10726,9 @@
       "ageLabel": "5年內",
       "referenceGroup": true,
       "note": "111.06.24原價轉讓預售屋、或土地及建物分件登記案件；",
-      "id": "RPTUMLNJIIHGFAH28DA--成屋"
+      "id": "RPTUMLNJIIHGFAH28DA--成屋",
+      "parkingCount": 1,
+      "parkingCountEstimated": true
     }
   ],
   "keywords": [

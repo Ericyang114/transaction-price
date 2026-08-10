@@ -104,15 +104,15 @@
       <h1>小檜溪<br><span class="headline">最近成交到哪裡了？</span></h1>
       <div class="rule"></div>
       <p class="lead">看成交，不要把車位混在一起看。</p>
-      <p class="sublead">本頁只採內政部官方實價登錄批次資料，將遠雄青溪社區與小檜溪周邊行情分開呈現。車位價格有揭露時才計入拆分單價；未揭露者列明細但不硬估。</p>
+      <p class="sublead">本頁只採內政部官方實價登錄批次資料，將遠雄青溪社區與小檜溪周邊行情分開呈現。車位價格有揭露時優先採官方拆分；未揭露但可由車位坪數判斷車位數時，以遠雄青溪近三年已揭露車位價格均價估算，並清楚標示。</p>
       <div class="notice">不是叫你現在賣，是讓你先看懂市場。</div>
     </section>
 
     <section class="cards" aria-label="遠雄青溪行情摘要">
       <div class="card focus"><div class="label">遠雄青溪近一年</div><div class="value">2</div><div class="unit">筆官方批次交易</div></div>
-      <div class="card focus"><div class="label">近一年可拆樣本</div><div class="value">0</div><div class="unit">筆；中位單價 - 萬/坪</div></div>
+      <div class="card focus"><div class="label">近一年可拆樣本</div><div class="value">1</div><div class="unit">筆；中位單價 45.9 萬/坪</div></div>
       <div class="card focus"><div class="label">官方歷史明細</div><div class="value">120</div><div class="unit">筆社區交易</div></div>
-      <div class="card focus"><div class="label">官方歷史可拆樣本</div><div class="value">112</div><div class="unit">筆；中位 29.8 萬/坪</div></div>
+      <div class="card focus"><div class="label">歷史拆分樣本</div><div class="value">119</div><div class="unit">含估算；中位 29.9 萬/坪</div></div>
     </section>
 
     <section class="cards" aria-label="小檜溪周邊行情摘要">
@@ -129,7 +129,7 @@
 
     <section class="panel">
       <h2>實價登錄明細</h2>
-      <p>可切換成屋／預售，也可搜尋路名。來源若同時揭露車位坪數及車位價格，優先呈現「總價扣車位價格」除以「建物坪數扣車位坪數」後的房地單價；未完整揭露者只顯示官方單價，不自行推估。</p>
+      <p>可切換成屋／預售，也可搜尋路名。來源若同時揭露車位坪數及車位價格，優先呈現「總價扣車位價格」除以「建物坪數扣車位坪數」後的房地單價；遠雄青溪若只缺車位價格，則以近三年社區已揭露車位價格均價估算。車位均價樣本 1 筆，每車位約 200 萬。</p>
       <div class="toolbar">
         <button class="active" data-kind="yuanqingxi">遠雄青溪</button>
         <button data-kind="yuanqingxiHistory">遠雄青溪歷史</button>
@@ -163,7 +163,7 @@
     </section>
 
     <section class="foot">
-      <strong>篩選口徑：</strong>2025/08/10 - 2026/08/10，桃園市桃園區，官方門牌包含「青溪一路, 清溪一路, 青溪二路, 日光路, 民光東路, 中央街, 鎮撫街, 朝陽街二段, 朝陽街３０１巷, 朝陽街301巷, 三民路二段, 春日路」等小檜溪周邊路段，交易標的含建物，並排除土地單獨交易、非住家用及明顯非住宅型地下室交易。遠雄青溪以「朝陽街301巷18/20/22/26/28號」及「民光東路371/373/375/377/379號」社區門牌辨識；小檜溪周邊行情統計排除遠雄青溪後計算。主行情只納入預售屋與屋齡 10 年內住宅；車位坪數與車位價格皆有揭露時，主呈現採拆車位後單價，未完整揭露者不自行推估。本頁只採內政部官方資料。
+      <strong>篩選口徑：</strong>2025/08/10 - 2026/08/10，桃園市桃園區，官方門牌包含「青溪一路, 清溪一路, 青溪二路, 日光路, 民光東路, 中央街, 鎮撫街, 朝陽街二段, 朝陽街３０１巷, 朝陽街301巷, 三民路二段, 春日路」等小檜溪周邊路段，交易標的含建物，並排除土地單獨交易、非住家用及明顯非住宅型地下室交易。遠雄青溪以「朝陽街301巷18/20/22/26/28號」及「民光東路371/373/375/377/379號」社區門牌辨識；小檜溪周邊行情統計排除遠雄青溪後計算。主行情只納入預售屋與屋齡 10 年內住宅；車位坪數與車位價格皆有揭露時，主呈現採拆車位後單價。遠雄青溪若有車位坪數但缺車位價格，會依近三年社區已揭露車位價格均價估算，並標示為估算。本頁只採內政部官方資料。
       <div class="source">
         <strong>資料來源：</strong>
         <a href="https://data.gov.tw/dataset/77051">政府資料開放平台：本期發布之不動產實價登錄批次資料</a>、
@@ -186,12 +186,31 @@
 
     async function loadData() {
       try {
-        const response = await fetch("xiaohuixi-records.json?v=9", { cache: "no-store" });
+        const response = await fetch("xiaohuixi-records.json?v=10", { cache: "no-store" });
         DATA = await response.json();
       } catch (error) {
         rowsEl.innerHTML = `<tr><td colspan="10">資料載入失敗，請重新整理頁面。</td></tr>`;
         throw error;
       }
+    }
+
+    function unitNote(r) {
+      if (r.parkingPriceEstimated) return "已拆車位（社區均價估）";
+      if (r.unitPriceWanPerPing) return "已拆車位";
+      if (r.officialUnitWanPerPing) return "官方單價，未拆車位";
+      return "車位價格未揭露";
+    }
+
+    function parkingPriceText(r) {
+      if (!r.parkingPriceWan) return "未揭露";
+      return fmtWan(r.parkingPriceWan) + " 萬" + (r.parkingPriceEstimated ? "（估）" : "");
+    }
+
+    function parkingMetaText(r) {
+      const countText = r.parkingCount ? `${r.parkingCount} 個車位${r.parkingCountEstimated ? "（依坪數判斷）" : ""}` : "車位數未揭露";
+      const pingText = r.parkingPing ? `${r.parkingPing} 坪` : "坪數未揭露";
+      const sourceText = r.parkingPriceEstimated ? "社區近三年均價估" : (r.parkingPriceWan ? "官方揭露" : "價格未揭露");
+      return `${r.parkingType || "車位"}｜${countText}｜${pingText}｜${sourceText}`;
     }
 
     function render() {
@@ -210,10 +229,10 @@
           <td><span class="tag">${r.community}</span></td>
           <td><span class="tag">${r.source}</span></td>
           <td>${r.address}</td>
-          <td><strong>${r.unitPriceWanPerPing || r.officialUnitWanPerPing || "-"}</strong> ${(r.unitPriceWanPerPing || r.officialUnitWanPerPing) ? "萬/坪" : ""}<br><small>${r.unitPriceWanPerPing ? "已拆車位" : (r.officialUnitWanPerPing ? "官方單價，未拆車位" : "車位價格未揭露")}</small></td>
+          <td><strong>${r.unitPriceWanPerPing || r.officialUnitWanPerPing || "-"}</strong> ${(r.unitPriceWanPerPing || r.officialUnitWanPerPing) ? "萬/坪" : ""}<br><small>${unitNote(r)}</small></td>
           <td>${r.housePriceWan ? fmtWan(r.housePriceWan) + " 萬" : "未揭露"}<br><small>總價 ${fmtWan(r.totalPriceWan)} 萬</small></td>
           <td>房地 ${r.housePing} 坪<br><small>建物登記 ${r.totalPing} 坪</small></td>
-          <td><span class="parking">${r.parkingPriceWan ? fmtWan(r.parkingPriceWan) + " 萬" : "未揭露"}</span><br><small>${r.parkingType || "無揭露"}｜${r.parkingPing} 坪</small></td>
+          <td><span class="parking">${parkingPriceText(r)}</span><br><small>${parkingMetaText(r)}</small></td>
           <td>${r.ageLabel}<br>${r.rooms || "-"}房${r.halls || "-"}廳${r.baths || "-"}衛<br><small>${r.floor || "-"} / ${r.totalFloor || "-"}</small></td>
         </tr>
       `).join("") || `<tr><td colspan="10">沒有符合條件的資料。</td></tr>`;
