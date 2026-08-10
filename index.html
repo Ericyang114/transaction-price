@@ -94,7 +94,6 @@
 <body>
   <header class="wrap">
     <div class="brand">
-      <span class="pill">老楊房快說｜小檜溪行情整理</span>
       <span>整理日期：2026-08-10｜近一年</span>
     </div>
   </header>
@@ -103,9 +102,8 @@
     <section class="hero">
       <h1>小檜溪<br><span class="headline">最近成交到哪裡了？</span></h1>
       <div class="rule"></div>
-      <p class="lead">看成交，不要把車位混在一起看。</p>
       <p class="sublead">本頁只採內政部官方實價登錄批次資料，將遠雄青溪社區與小檜溪周邊行情分開呈現。車位價格有揭露時優先採官方拆分；未揭露但可由車位坪數判斷車位數時，以遠雄青溪近三年已揭露車位價格均價估算，並清楚標示。</p>
-      <div class="notice">不是叫你現在賣，是讓你先看懂市場。</div>
+      <div class="notice">想知道行情，先從同社區成交看起。</div>
     </section>
 
     <section class="cards" aria-label="遠雄青溪行情摘要">
@@ -123,22 +121,13 @@
     </section>
 
     <section class="panel">
-      <h2>給遠雄青溪住戶看的重點</h2>
-      <p>上方第一排採內政部官方批次資料，並補入內政部實價登錄查詢網可核對的社區資料。近一年明細顯示目前官方來源可對到的遠雄青溪交易；歷史明細則回溯官方批次資料中可辨識的社區門牌。第二排是排除遠雄青溪後的小檜溪周邊行情。</p>
-    </section>
-
-    <section class="panel">
       <h2>實價登錄明細</h2>
-      <p>可切換成屋／預售，也可搜尋路名。來源若同時揭露車位坪數及車位價格，優先呈現「總價扣車位價格」除以「建物坪數扣車位坪數」後的房地單價；遠雄青溪若只缺車位價格，則以近三年社區已揭露車位價格均價估算。車位均價樣本 1 筆，每車位約 200 萬。</p>
+      <p>可切換社區與周邊行情，也可搜尋路名。若車位價格有揭露，單價會先扣除車位計算；遠雄青溪若只缺車位價格，則以近三年社區已揭露車位價格均價估算。車位均價樣本 1 筆，每車位約 200 萬。</p>
       <div class="toolbar">
-        <button class="active" data-kind="yuanqingxi">遠雄青溪</button>
-        <button data-kind="yuanqingxiHistory">遠雄青溪歷史</button>
+        <button class="active" data-kind="yuanqingxi">遠雄青溪近一年</button>
+        <button data-kind="yuanqingxiHistory">遠雄青溪歷史成交</button>
         <button data-kind="area">小檜溪周邊</button>
-        <button data-kind="reference">全部主行情</button>
-        <button data-kind="all">全部</button>
-        <button data-kind="成屋">成屋</button>
-        <button data-kind="預售">預售</button>
-        <button data-kind="older">高屋齡參考</button>
+        <button data-kind="all">全部明細</button>
         <input id="search" placeholder="搜尋路名，例如：青溪一路、日光路、民光東路">
       </div>
       <div class="tableWrap">
@@ -148,12 +137,11 @@
               <th>交易日</th>
               <th>類型</th>
               <th>分類</th>
-              <th>來源</th>
               <th>位置</th>
-              <th>房地單價</th>
-              <th>房地總價</th>
-              <th>坪數拆分</th>
-              <th>車位拆分</th>
+              <th>單價</th>
+              <th>總價</th>
+              <th>坪數</th>
+              <th>車位</th>
               <th>屋齡 / 格局 / 樓層</th>
             </tr>
           </thead>
@@ -186,10 +174,10 @@
 
     async function loadData() {
       try {
-        const response = await fetch("xiaohuixi-records.json?v=10", { cache: "no-store" });
+        const response = await fetch("xiaohuixi-records.json?v=11", { cache: "no-store" });
         DATA = await response.json();
       } catch (error) {
-        rowsEl.innerHTML = `<tr><td colspan="10">資料載入失敗，請重新整理頁面。</td></tr>`;
+        rowsEl.innerHTML = `<tr><td colspan="9">資料載入失敗，請重新整理頁面。</td></tr>`;
         throw error;
       }
     }
@@ -207,10 +195,18 @@
     }
 
     function parkingMetaText(r) {
-      const countText = r.parkingCount ? `${r.parkingCount} 個車位${r.parkingCountEstimated ? "（依坪數判斷）" : ""}` : "車位數未揭露";
+      if (!r.parkingPing && !r.parkingPriceWan) return "車位資料未完整揭露";
+      const countText = r.parkingCount ? `${r.parkingCount} 個車位` : "車位數未揭露";
       const pingText = r.parkingPing ? `${r.parkingPing} 坪` : "坪數未揭露";
-      const sourceText = r.parkingPriceEstimated ? "社區近三年均價估" : (r.parkingPriceWan ? "官方揭露" : "價格未揭露");
-      return `${r.parkingType || "車位"}｜${countText}｜${pingText}｜${sourceText}`;
+      const sourceText = r.parkingPriceEstimated ? "社區均價估" : (r.parkingPriceWan ? "官方揭露" : "價格未揭露");
+      return `${countText}｜${pingText}｜${sourceText}`;
+    }
+
+    function areaText(r) {
+      if (r.parkingPing && r.housePing) {
+        return `總坪數 ${r.totalPing} 坪<br><small>建物坪數 ${r.housePing} 坪</small>`;
+      }
+      return `總坪數 ${r.totalPing} 坪`;
     }
 
     function render() {
@@ -227,15 +223,14 @@
           <td>${r.dateLabel}</td>
           <td><span class="tag">${r.kind}</span></td>
           <td><span class="tag">${r.community}</span></td>
-          <td><span class="tag">${r.source}</span></td>
           <td>${r.address}</td>
           <td><strong>${r.unitPriceWanPerPing || r.officialUnitWanPerPing || "-"}</strong> ${(r.unitPriceWanPerPing || r.officialUnitWanPerPing) ? "萬/坪" : ""}<br><small>${unitNote(r)}</small></td>
-          <td>${r.housePriceWan ? fmtWan(r.housePriceWan) + " 萬" : "未揭露"}<br><small>總價 ${fmtWan(r.totalPriceWan)} 萬</small></td>
-          <td>房地 ${r.housePing} 坪<br><small>建物登記 ${r.totalPing} 坪</small></td>
+          <td>${fmtWan(r.totalPriceWan)} 萬${r.housePriceWan && r.housePriceWan !== r.totalPriceWan ? `<br><small>扣車位後 ${fmtWan(r.housePriceWan)} 萬</small>` : ""}</td>
+          <td>${areaText(r)}</td>
           <td><span class="parking">${parkingPriceText(r)}</span><br><small>${parkingMetaText(r)}</small></td>
           <td>${r.ageLabel}<br>${r.rooms || "-"}房${r.halls || "-"}廳${r.baths || "-"}衛<br><small>${r.floor || "-"} / ${r.totalFloor || "-"}</small></td>
         </tr>
-      `).join("") || `<tr><td colspan="10">沒有符合條件的資料。</td></tr>`;
+      `).join("") || `<tr><td colspan="9">沒有符合條件的資料。</td></tr>`;
     }
 
     buttons.forEach(btn => btn.addEventListener("click", () => {
