@@ -167,7 +167,8 @@
       <div class="source">
         <strong>資料來源：</strong>
         <a href="https://data.gov.tw/dataset/77051">政府資料開放平台：本期發布之不動產實價登錄批次資料</a>、
-        <a href="https://plvr.land.moi.gov.tw/">內政部不動產成交案件實際資訊資料供應系統</a>。實際揭露仍以官方查詢服務網與最新公告為準。
+        <a href="https://plvr.land.moi.gov.tw/">內政部不動產成交案件實際資訊資料供應系統</a>，並比對
+        <a href="https://lvr.land.moi.gov.tw/jsp/list.jsp">內政部實價登錄查詢網</a>近一年桃園區前台清單；本次去重後官方查詢網補充 0 筆。實際揭露仍以官方查詢服務網與最新公告為準。
       </div>
     </section>
   </main>
@@ -185,7 +186,7 @@
 
     async function loadData() {
       try {
-        const response = await fetch("xiaohuixi-records.json?v=5", { cache: "no-store" });
+        const response = await fetch("xiaohuixi-records.json?v=7", { cache: "no-store" });
         DATA = await response.json();
       } catch (error) {
         rowsEl.innerHTML = `<tr><td colspan="10">資料載入失敗，請重新整理頁面。</td></tr>`;
