@@ -152,13 +152,7 @@
     </section>
 
     <section class="foot">
-      <strong>篩選口徑：</strong>2025/08/10 - 2026/08/10，桃園市桃園區，官方門牌包含「青溪一路, 清溪一路, 青溪二路, 日光路, 民光東路, 中央街, 鎮撫街, 朝陽街二段, 朝陽街３０１巷, 朝陽街301巷, 三民路二段, 春日路」等小檜溪周邊路段，交易標的含建物，並排除土地單獨交易、非住家用及明顯非住宅型地下室交易。遠雄青溪以「朝陽街301巷18/20/22/26/28號」及「民光東路371/373/375/377/379號」社區門牌辨識；小檜溪周邊行情統計排除遠雄青溪後計算。主行情只納入預售屋與屋齡 10 年內住宅；車位坪數與車位價格皆有揭露時，主呈現採拆車位後單價。遠雄青溪若有車位坪數但缺車位價格，會依近三年社區已揭露車位價格均價估算，並標示為估算。本頁只採內政部官方資料。
-      <div class="source">
-        <strong>資料來源：</strong>
-        <a href="https://data.gov.tw/dataset/77051">政府資料開放平台：本期發布之不動產實價登錄批次資料</a>、
-        <a href="https://plvr.land.moi.gov.tw/">內政部不動產成交案件實際資訊資料供應系統</a>，並比對
-        <a href="https://lvr.land.moi.gov.tw/jsp/list.jsp">內政部實價登錄查詢網</a>近一年桃園區前台清單；本次去重後官方查詢網補充 2 筆。實際揭露仍以官方查詢服務網與最新公告為準。
-      </div>
+      資料來源：內政部實價登錄公開資料。車位價格未揭露者，頁面會以「估」標示；實際揭露仍以官方最新資料為準。
     </section>
   </main>
 
@@ -175,7 +169,7 @@
 
     async function loadData() {
       try {
-        const response = await fetch("xiaohuixi-records.json?v=12", { cache: "no-store" });
+        const response = await fetch("xiaohuixi-records.json?v=13", { cache: "no-store" });
         DATA = await response.json();
       } catch (error) {
         rowsEl.innerHTML = `<tr><td colspan="9">資料載入失敗，請重新整理頁面。</td></tr>`;
