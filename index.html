@@ -94,7 +94,7 @@
 <body>
   <header class="wrap">
     <div class="brand">
-      <span>整理日期：2026-08-10｜近一年</span>
+      <span>整理日期：2026-08-17｜近一年</span>
     </div>
   </header>
 
@@ -114,10 +114,10 @@
     </section>
 
     <section class="cards" aria-label="小檜溪周邊行情摘要">
-      <div class="card"><div class="label">小檜溪周邊預售</div><div class="value">50</div><div class="unit">筆近一年官方明細</div></div>
-      <div class="card"><div class="label">周邊新成屋</div><div class="value">104</div><div class="unit">筆 5 年內成屋</div></div>
-      <div class="card"><div class="label">周邊中位單價</div><div class="value">54.6</div><div class="unit">萬 / 坪，不含遠雄青溪</div></div>
-      <div class="card"><div class="label">周邊平均單價</div><div class="value">54.1</div><div class="unit">萬 / 坪，不含遠雄青溪</div></div>
+      <div class="card"><div class="label">小檜溪周邊預售</div><div class="value">45</div><div class="unit">筆近一年官方明細</div></div>
+      <div class="card"><div class="label">周邊新成屋</div><div class="value">113</div><div class="unit">筆 5 年內成屋</div></div>
+      <div class="card"><div class="label">周邊中位單價</div><div class="value">54.2</div><div class="unit">萬 / 坪，不含遠雄青溪</div></div>
+      <div class="card"><div class="label">周邊平均單價</div><div class="value">53.8</div><div class="unit">萬 / 坪，不含遠雄青溪</div></div>
     </section>
 
     <section class="panel">
@@ -169,7 +169,7 @@
 
     async function loadData() {
       try {
-        const response = await fetch("xiaohuixi-records.json?v=13", { cache: "no-store" });
+        const response = await fetch("xiaohuixi-records.json?v=14", { cache: "no-store" });
         DATA = await response.json();
       } catch (error) {
         rowsEl.innerHTML = `<tr><td colspan="9">資料載入失敗，請重新整理頁面。</td></tr>`;
